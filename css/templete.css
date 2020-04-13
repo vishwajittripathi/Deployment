@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-style: solid;
+    height: 800px;
+}
+main {
+    border-style: solid;
+    height: 780px;
+    margin: 10px 10px;
+    background-color: blue;
+    
+}
+header {
+    border-style: solid;
+    height: 40px;
+    margin: 10px 10px;
+    background-color: saddlebrown;
+}
+
+nav {
+    border-style: solid;
+    height: 50px;
+    margin: 10px 10px;
+    background-color: slategray;
+}
+article {
+    border-style: solid;
+    height: 710px;
+    margin: 100px 10px;
+    background-color: rebeccapurple;
+}
+
+section {
+    border-style: solid;
+    margin: 10px 10px;
+    /*position: relative;
+    float: left;*/
+    background-color: saddlebrown;
+    text-align: center;
+    
+}
+
+.gtable {
+    padding: 50px;
+    
+    height: 480px;
+
+    display: grid;
+    grid-template: repeat(8, 5fr) / 3fr minmax(50px, 300px) 1fr ;
+    grid-gap: 20px 5px;
+    /*grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    grid-template-columns: 100px minmax(10px 180px) 90px;
+    grid-template-rows: 10% 10% 100px;*/
+}
+
+/*.secalpha {
+   /* position: fixed;*/
+ 
+   
+}
+
+/*.secNum {
+    position: absolute;
+    z-index: 1;
+}
+
+.secsym {
+    position: relative;
+}
+
+.alpha {
+display: grid;
+width:500px;
+
+}
+.Num {
+display: grid;
+width:500px;   
+}
+
+.sym {
+    display: grid;
+    width:500px;
+
+}
+
+section h1 {
+    margin: 10px 10px;
+    padding: 2px 2px;
+}
+
+/*.alpha {
+    display:inline-block;
+}*/
