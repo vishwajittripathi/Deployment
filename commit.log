@@ -1,8 +1,0 @@
-[master 2cae6f9] secondcommit
- 6 files changed, 358 insertions(+)
- create mode 100644 css/templete.css
- create mode 100644 index.html
- create mode 100644 pages/DataChart.html
- create mode 100644 pages/Feedback.html
- create mode 100644 pages/story01.html
- create mode 100644 pages/story02.html
